@@ -11,12 +11,12 @@
     <body style="margin:0px; background: #f8f8f8; ">
         <div width="100%" style="background: #f8f8f8; padding: 0px 0px; font-family:arial; line-height:28px; height:100%;  width: 100%; color: #514d6a;">
             <div style="max-width: 700px; padding:50px 0;  margin: 0px auto; font-size: 14px">
-                <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; background: #FBB316">
+                <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; background: #fff">
                     <tbody>
                         <tr>
                             <td style="vertical-align: top; padding-bottom:30px;" align="center">
                                 <a href="<?php echo site_url("/"); ?>" target="_blank">
-                                    <img src="<?php echo site_mail_logo; ?>" alt="Professional Movers" style="border:none;height:100px;"/></a>
+                                    <img src="https://www.promovers.hk/assets/img/logo.png" alt="Professional Movers" style="border:none;height:50px;    margin-top: 20px;"/></a>
                             </td>
                         </tr>
                     </tbody>
@@ -30,7 +30,7 @@
 
 
                                     <b>Dear <?php echo $appointment['name']; ?>,</b>
-                                    <p>Thank you for your reservation which is now a confirmed booking as follows:</p>
+                                    <p>Thank you for contact us.</p>
 
                                     <table style="font-size: 12px;    font-size: 12px;
                                            text-align: center;
@@ -49,10 +49,19 @@
                                         </tr>
                                         <tr>
                                             <th style="text-align: right;width:200px;padding-right: 10px;">Contact No.</th>
-                                            <td style="    text-align: left;"><?php echo $appointment['contact']; ?></td>
+                                            <td style="    text-align: left;"><?php echo $appointment['contact_no']; ?></td>
                                         </tr>
 
                                         <tr>
+                                            <th style="text-align: right;width:200px;padding-right: 10px;">From Location</th>
+                                            <td style="    text-align: left;"><?php echo $appointment['source']; ?></td>
+                                        </tr>
+
+                                        <tr>
+                                            <th style="text-align: right;width:200px;padding-right: 10px;">Destination Location</th>
+                                            <td style="    text-align: left;"><?php echo $appointment['destination']; ?></td>
+                                        </tr>
+                                         <tr>
                                             <th style="text-align: right;width:200px;padding-right: 10px;">Date</th>
                                             <td style="    text-align: left;"><?php echo $appointment['select_date']; ?></td>
                                         </tr>
@@ -62,10 +71,7 @@
                                             <td style="    text-align: left;"><?php echo $appointment['select_time']; ?></td>
                                         </tr>
 
-                                        <tr>
-                                            <th style="text-align: right;width:200px;padding-right: 10px;">Guest(s)</th>
-                                            <td style="    text-align: left;"><?php echo $appointment['people']; ?></td>
-                                        </tr>
+                                       
 
 
                                     </table>
@@ -77,18 +83,17 @@
 
                         </tbody>
                     </table>
-                </div>
-                <div style="    text-align: center;
+                    <div style="    text-align: center;
                      font-size: 12px;
-                     background: #8CC646;
-                     color: antiquewhite;
+               border:1px solid #000;
+                 
                      padding: 10px;">
-                    <p><a href="<?php echo site_url("cancleOrder/" . $orderid); ?>" target="_blank" style="color:white">Click here</a> to cancel or update this reservation..</p>
                     <b>- Thanks -</b> 
                     <br/>
-                    <img src="<?php echo site_mail_logo; ?>" style="margin: 10px; height: 50px;   width: auto;"/>
-
+                    <p>Contact No./WhatsApp: +(852)6151-2644, Email: m.sirajbtc@gmail.com</p>
                 </div>
+                </div>
+                
             </div>
         </div>
     </body>
