@@ -1,0 +1,108 @@
+.main_menu_area {
+    background: #0098ff;
+}
+
+.main_menu_area .navbar.navbar-default .nav.navbar-nav {
+    margin-left: 14px;
+}
+
+
+.quote_btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: #ff0303;
+    height: 250px;
+    width: 300px;
+    border-radius: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 100%;
+    -webkit-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+    z-index: -1;
+}
+
+
+.quote_btn {
+    display: inline-block;
+    padding: 0 26px;
+    background: #0098ff;
+    line-height: 47px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-family: roboto,sans-serif;
+    font-weight: 400;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.main_slider_area .rev_slider .tp-revslider-mainul li .slotholder:before {
+    content: "";
+    background: rgba(0,0,0,0); 
+    position: absolute;
+    left: 0x;
+    top: 0;
+    z-index: 6;
+    width: 100%;
+    height: 100%;
+}
+
+
+div#main_slider {
+    height: 500px!important;
+}
+
+.sideicons{
+    float:right!important;
+}
+
+
+.main_menu_area .navbar.navbar-default .nav.navbar-nav {
+    margin-left: 14px;
+    width:100%!important;
+}
+
+
+.main_menu_area .navbar.navbar-default .nav.navbar-nav .sideicons li {
+    margin-right: 40px;
+    float: left;
+}
+
+
+.text-color-red{
+    color:red!important;
+}
+
+.text-color-white{
+    color:white!important;
+}
+
+
+.about_area {
+    background: #02aff1;
+    padding: 100px 0;
+}
+
+
+.footer_area {
+    background: url() no-repeat scroll center center; 
+    background-size: cover;
+    padding: 88px 0 56px;
+    background: #323232;
+}
+
+.bookingback{
+    padding-top: 20px;
+    background-size: cover!important;
+    background-position: center!important;
+    height:600px!important;
+        background-position-y: 48px!important;
+    background-repeat: no-repeat!important;
+}
