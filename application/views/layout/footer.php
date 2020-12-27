@@ -5,7 +5,7 @@
                 <div class="col-md-6 col-xs-6">
                     <aside class="f_widget about_widget">
                         <img src="<?php echo base_url(); ?>assets/img/logo.png" alt="" style="height: 70px;">
-                        <p>Start.ly Logistics is a mobile first responsive website template for logistics or transportation.</p>
+                        <p>We provide personalized relocation services for individuals and businesses. </p>
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
