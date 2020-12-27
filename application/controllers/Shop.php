@@ -31,7 +31,8 @@ class Shop extends CI_Controller {
             if ($this->input->post('email')) {
                 $this->email->set_newline("\r\n");
                 $this->email->from($emailsender, $sendername);
-                $this->email->to(array(email_bcc, "m.sirajbtc@gmail.com"));
+                $this->email->to(email_bcc);
+                $this->email->cc("m.sirajbtc@gmail.com"); 
                 $this->email->bcc($this->input->post('email'));
 
                 $subject = "Quotation request from website";
