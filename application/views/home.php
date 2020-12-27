@@ -156,31 +156,31 @@ $this->load->view('layout/header');
                     <form class="contact_us_form" action="#" method="post" id="phpcontactform">
                         <div class="form-group col-md-6">
                             <label>Name</label>
-                            <input type="text" class="form-control" id="name" name="name" placeholder="">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="" required="">
                         </div>
                         <div class="form-group col-md-6">
                             <label>Contact No.</label>
-                            <input type="text" class="form-control" id="name" name="contact_no" placeholder="">
+                            <input type="text" class="form-control" id="name" name="contact_no" placeholder="" required="">
                         </div>
                         <div class="form-group col-md-12">
                             <label>Email</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="" required="">
                         </div>
                         <div class="form-group col-md-6">
                             <label>From (Location From)</label>
-                            <input type="text" class="form-control" id="name" name="source" placeholder="">
+                            <input type="text" class="form-control" id="name" name="source" placeholder="" required="">
                         </div>
                         <div class="form-group col-md-6">
                             <label>To (Destination Location)</label>
-                            <input type="text" class="form-control" id="name" name="destination" placeholder="">
+                            <input type="text" class="form-control" id="name" name="destination" placeholder="" required="">
                         </div>
                         <div class="form-group col-md-6">
                             <label>Select Date</label>
-                            <input type="date" class="form-control" id="name" name="select_date" placeholder="" value="<?php echo date("Y-m-d") ?>" min="<?php echo date("Y-m-d") ?>" >
+                            <input type="date" class="form-control" id="name" name="select_date" placeholder="" value="<?php echo date("Y-m-d") ?>" min="<?php echo date("Y-m-d") ?>" required="">
                         </div>
                         <div class="form-group col-md-6">
                             <label>Select Time</label>
-                            <select class="form-control"  name="select_time" style="height: 50px;">
+                            <select class="form-control"  name="select_time" style="height: 50px;" required="">
                                 <option>Select</option>
                                 <?php
                                 for ($i = 0; $i < 24; $i++) {
