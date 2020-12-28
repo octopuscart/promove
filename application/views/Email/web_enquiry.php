@@ -6,6 +6,12 @@
         <meta name="viewport" content="width=device-width" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>PROFESSIONAL MOVING SERVICES</title>
+        <style>
+            td, th {
+                padding: 0;
+                vertical-align: baseline;
+            }
+        </style>
     </head>
 
     <body style="margin:0px; background: #f8f8f8; ">
@@ -61,7 +67,7 @@
                                             <th style="text-align: right;width:200px;padding-right: 10px;">Destination Location</th>
                                             <td style="    text-align: left;"><?php echo $appointment['destination']; ?></td>
                                         </tr>
-                                         <tr>
+                                        <tr>
                                             <th style="text-align: right;width:200px;padding-right: 10px;">Date</th>
                                             <td style="    text-align: left;"><?php echo $appointment['select_date']; ?></td>
                                         </tr>
@@ -70,8 +76,11 @@
                                             <th style="text-align: right;width:200px;padding-right: 10px;">Time</th>
                                             <td style="    text-align: left;"><?php echo $appointment['select_time']; ?></td>
                                         </tr>
+                                        <tr>
+                                            <th style="text-align: right;width:200px;padding-right: 10px;">Note</th>
+                                            <td style="    text-align: left;white-space: white-space: pre-line;"><?php echo $appointment['note'] ? $appointment['note'] : '---'; ?></td>
+                                        </tr>
 
-                                       
 
 
                                     </table>
@@ -84,16 +93,16 @@
                         </tbody>
                     </table>
                     <div style="    text-align: center;
-                     font-size: 12px;
-               border:1px solid #000;
-                 
-                     padding: 10px;">
-                    <b>- Thanks -</b> 
-                    <br/>
-                    <p>Contact No./WhatsApp: +(852)6151-2644, Email: m.sirajbtc@gmail.com</p>
+                         font-size: 12px;
+                         border:1px solid #000;
+
+                         padding: 10px;">
+                        <b>- Thanks -</b> 
+                        <br/>
+                        <p>Contact No./WhatsApp: +(852)6151-2644, Email: m.sirajbtc@gmail.com</p>
+                    </div>
                 </div>
-                </div>
-                
+
             </div>
         </div>
     </body>

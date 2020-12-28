@@ -63,11 +63,11 @@ $this->load->view('layout/header');
     </div>
 </section>
 
-<div class="main_title">
+<div class="main_title" id="contactus">
     <h5>Our Vision</h5>
     <h2 class="text-color-red">Relaxing is your job, Moving is ours!</h2>
 </div>
-<section class="main_feature_area" id="contactus">
+<section class="main_feature_area" >
     <div class="left_feature_content">
         <div class="left_feature_inner_text">
             <div class="media">
@@ -142,7 +142,7 @@ $this->load->view('layout/header');
         <img src="<?php echo base_url(); ?>assets/img/feature-right.jpg" alt="">
     </div>
 </section>
-<section class="contact_form_area2" style='padding: 0px' id="quote">
+<section class="contact_form_area2" style='padding: 40px' id="quote">
     <div class="container">
         <div class="row">
             <div class="col-md-5 bookingback" style="background: url('<?php echo base_url(); ?>assets/img/moverman.png');
@@ -200,6 +200,10 @@ $this->load->view('layout/header');
                                 }
                                 ?>
                             </select>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label>Note</label>
+                            <textarea class="form-control" name="note" placeholder="Try additional Details here...." required="" min="500" style="height: 100px;"></textarea>
                         </div>
                         <div class="form-group col-md-12 button_area">
                             <button type="submit" value="submit your quote" class="btn submit_blue form-control" name='submit' id="js-contact-btn">Send message <i class="fa fa-angle-right"></i></button>

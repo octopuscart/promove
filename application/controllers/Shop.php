@@ -22,6 +22,7 @@ class Shop extends CI_Controller {
                 'destination' => $this->input->post('destination'),
                 'select_date' => $this->input->post('select_date'),
                 'select_time' => $this->input->post('select_time'),
+                'note' => $this->input->post('note'),
                 'datetime' => date("Y-m-d H:i:s a"),
             );
             $emailsender = email_sender;
