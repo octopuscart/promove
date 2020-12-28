@@ -31,7 +31,7 @@ $this->load->view('layout/header');
                         </a>
                         <p>
                             Our employees are experienced handyman with hundreds of successful move. 
-                            They are reliable, trustworthy and multilingual (Chinese, English, Hindi).
+                            They are reliable, trustworthy and multilingual (Chinese, English & Hindi).
                         </p>
                     </div>
                 </div>
