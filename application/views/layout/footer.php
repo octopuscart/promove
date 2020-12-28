@@ -38,7 +38,7 @@
                         <div class="contact_details">
                             <p>Contact No.: <a href="tel:>+(852)6151-2644">+(852)6151-2644</a></p>
 
-                            <p>Email: <a href="m.sirajbtc@gmail.com" class="__cf_email__" >m.sirajbtc@gmail.com</a></p>
+                            <p>Email: <a href="info@promovers.hk" class="__cf_email__" >info@promovers.hk</a></p>
                         </div>
                     </aside>
                 </div>

@@ -64,7 +64,7 @@
                         </div>
                         <div class="header_c_text">
                             <h5>Email Us</h5>
-                            <h4><a href="m.sirajbtc@gmail.com" class="__cf_email__" >m.sirajbtc@gmail.com</a></h4>
+                            <h4><a href="info@promovers.hk" class="__cf_email__" >info@promovers.hk</a></h4>
                         </div>
                         <div class="header_c_text">
                             <a class="quote_btn" href="#">Request a Quote</a>
