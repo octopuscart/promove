@@ -67,7 +67,7 @@
                             <h4><a href="info@promovers.hk" class="__cf_email__" >info@promovers.hk</a></h4>
                         </div>
                         <div class="header_c_text">
-                            <a class="quote_btn" href="#">Request a Quote</a>
+                            <a class="quote_btn" href="#quote">Request a Quote</a>
                         </div>
                     </div>
                 </div>
@@ -87,13 +87,16 @@
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="">Home</a></li>
-                                <li><a href="#">About Us</a></li>
+                                <li class="active"><a href="#home">Home</a></li>
+                                <li><a href="#aboutus">About Us</a></li>
 
 
                                 <li class="dropdown submenu">
-                                    <a href="#"  >Contact Us </a>
+                                    <a href="#contactus"  >Contact Us </a>
 
+                                </li>
+                                <li>
+                                     <a  href="#quote">Request a Quote</a>
                                 </li>
                                 <li class="sideicons">
                                     <ul>

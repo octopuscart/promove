@@ -2,7 +2,7 @@
 $this->load->view('layout/header');
 ?>
 
-<section class="main_slider_area">
+<section class="main_slider_area" id="home">
     <div id="main_slider" class="rev_slider" data-version="5.3.1.6">
         <ul>
             <li data-index="rs-2972" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
@@ -67,7 +67,7 @@ $this->load->view('layout/header');
     <h5>Our Vision</h5>
     <h2 class="text-color-red">Relaxing is your job, Moving is ours!</h2>
 </div>
-<section class="main_feature_area">
+<section class="main_feature_area" id="contactus">
     <div class="left_feature_content">
         <div class="left_feature_inner_text">
             <div class="media">
@@ -142,7 +142,7 @@ $this->load->view('layout/header');
         <img src="<?php echo base_url(); ?>assets/img/feature-right.jpg" alt="">
     </div>
 </section>
-<section class="contact_form_area2" style='padding: 0px'>
+<section class="contact_form_area2" style='padding: 0px' id="quote">
     <div class="container">
         <div class="row">
             <div class="col-md-5 bookingback" style="background: url('<?php echo base_url(); ?>assets/img/moverman.png');
@@ -226,7 +226,7 @@ $this->load->view('layout/header');
 </section>-->
 
 
-<section class="about_area">
+<section class="about_area" id="aboutus">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 col-md-offset-1">
@@ -234,7 +234,6 @@ $this->load->view('layout/header');
                     <h3 class="single_title text-color-white">About Us</h3>
                     <p class="text-color-white">We provide personalized relocation services for individuals and businesses.  A move is often a stressful step whether it’s Home or Office. That's why we offer specialized services to make your move as easy and successful as possible. Packing, wrapping, extra protection for fragile or valuable items - you can tell us what you need and our movers will take care of everything. Apart from it we also offer handymen services. </p>
                     </p>
-                    <a class="more_btn text-color-white" href="#">KNOW MORE <i class="fa fa-angle-right"></i></a>
                 </div>
             </div>
             <div class="col-md-5" style="padding: 0">
