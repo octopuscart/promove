@@ -78,7 +78,7 @@
                                         </tr>
                                         <tr>
                                             <th style="text-align: right;width:200px;padding-right: 10px;">Note</th>
-                                            <td style="    text-align: left;white-space: white-space: pre-line;"><?php echo $appointment['note'] ? $appointment['note'] : '---'; ?></td>
+                                            <td style="    text-align: left;white-space: pre-line;"><?php echo $appointment['note'] ? $appointment['note'] : '---'; ?></td>
                                         </tr>
 
 
